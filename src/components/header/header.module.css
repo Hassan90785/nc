@@ -1,0 +1,26 @@
+.upHeader {
+  background-color: #303236;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 12px;
+}
+.logoBar {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: solid 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.14);
+  padding: 2px 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.upHeaderSpan > span {
+  padding-right: 21px;
+}
+
+.ulClass {
+  width: 200px;
+  background-color: bisque;
+}
+.liClass {
+  color: #f00;
+}

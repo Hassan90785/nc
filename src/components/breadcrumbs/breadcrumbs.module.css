@@ -1,0 +1,35 @@
+
+.breadcrumbBgImage {
+    /*background-image: url('./bg-1.jpg');*/
+    /*height: 150px;*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+    height: 300px;
+    max-height: 400px;
+}
+
+.breadcrumbBg {
+    color: aquamarine;
+    background-color: inherit;
+}
+
+.customBreadcrumb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.customBreadcrumbLink {
+    font-size: 16px;
+    /* font-size: 1.6rem; */
+    text-decoration: none;
+    color: #0a0739;
+    font-weight: 500;
+}
+
+.breadcrumbImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
