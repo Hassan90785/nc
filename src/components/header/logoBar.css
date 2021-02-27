@@ -1,0 +1,105 @@
+
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+    border:none;
+    /*background-color:#0060c8!important;*/
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+
+    /* remove the padding from the navbar so the dropdown hover state is not broken */
+    .navbar {
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+
+    /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+    .navbar .nav-item {
+        padding:.5rem .5rem;
+        margin:0 .25rem;
+    }
+
+    /* makes the dropdown full width  */
+    .navbar .dropdown {position:static;}
+
+    .navbar .dropdown-menu {
+        width:100%;
+        left:0;
+        right:0;
+        /*  height of nav-item  */
+        top:4.1rem;
+        display:block;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+        border: none;
+        border-radius: unset!important;
+
+    }
+
+
+
+
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+        display:block;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.3s linear;
+    }
+
+    .navbar .dropdown-menu {
+        border: 1px solid rgba(0,0,0,.15);
+        background-color: #fff;
+    }
+
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #6784ee;
+    transition: width .7s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.nav-link:hover{
+    color: #6784ee !important;
+}
+.list-group-item {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    border-radius: unset!important;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 0.3rem;
+    border-left: 3px solid #6784ee !important;
+    padding: 0.55rem 1.25rem !important;
+}
+.cool-list-item:hover , .cool-list-item:hover .subsubNavitem{
+    background-color: #6784ee !important;
+    border-left-color: #2820ab !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+.subsubNavitem{
+    font-size: 0.7em;
+}
+.subNavitem{
+    font-size: 1.3rem!important;
+    color: #6784ee !important;
+    font-style: italic!important;
+}

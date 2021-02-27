@@ -6,9 +6,7 @@ import LogoBar from "./logoBar";
 const Header = () => {
     return (
         <>
-        {useLocation().pathname === '/' ?
             <UpHeader/>
-            : ''}
             <LogoBar/>
     </>
     );

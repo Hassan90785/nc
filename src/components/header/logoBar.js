@@ -1,124 +1,103 @@
-import React, {useState, useEffect, useContext} from 'react';
-import {Link} from 'react-router-dom';
-import {Menu, Row, Col} from 'antd';
-import globalstyle from '../../style.module.css';
+import React from 'react';
+import $ from 'jquery';
 import {navItems} from '../../utilities/mainData/menu';
-
-// import { MailOutlined, AppstoreOutlined, SettingOutlined, DownOutlined } from '@ant-design/icons';
-
 import logo from '../../assets/images/logo.png';
-import RightCircleOutlined from "@ant-design/icons/es/icons/RightCircleOutlined";
-
-const {SubMenu} = Menu;
-
-
+import {Link} from 'react-router-dom';
+import './logoBar.css';
 const LogoBar = () => {
-
-    const [showMegaMenu, setshowMegaMenu] = useState(false);
-    const [menu, setMenu] = useState({});
-    const [key, setKey] = useState({});
-
+    hoverEffect();
     return (
         <>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand pl-3" href="#"> <Link to="/"> <img src={logo} width="150px"/> </Link></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-            <div className={globalstyle.logoBar}>
-                <div className={globalstyle.container}>
-                    <Row className={globalstyle.flexCenter}>
-                        <Col span={4}>
-                            <Link to="/"> <img src={logo} width="150px"/> </Link>
-                        </Col>
-                        <Col span={20}>
-                            <Menu className={globalstyle.menuContainer} onClick={() => (setMenu({key: "mail"}))}
-                                  selectedKeys={[key]} mode="horizontal">
-                                <Menu.Item>
-                                </Menu.Item>
-                                {
-                                    navItems.map((navItem) => (
-                                        <SubMenu key={navItem.id} title={<p className={globalstyle.navItemText}>{navItem.name}</p>}>
-                                            {   navItem.subMenu.length !== 0 ?
-                                            <div className="megaMenu w-100">
-                                                <div className={globalstyle.container}>
-                                                    <div className="row">
-                                                        {/*<div className="col-xs-12 col-md-12">*/}
-                                                        {/*    <h6 className={globalstyle.menuMainHeading}>{navItem.mainHeading}</h6>*/}
-                                                        {/*</div>*/}
-                                                        {
-
-                                                            navItem.subMenu.map((subNavItem) => (
-                                                                <div key={subNavItem.id}
-                                                                     className="col-xs-6 col-md-2 col-lg-2 col-xl-2">
-                                                                    <h6 className={globalstyle.submenuHeading}> {subNavItem.name} </h6>
-                                                                    <ul className="subMenu">
-                                                                        {
-                                                                            subNavItem.subMenu.map((subSubNavitem) => (
-                                                                                <li className={globalstyle.submenuItem}
-                                                                                    key={subSubNavitem.id}>
-                                                                                    <Link
-                                                                                        to={subSubNavitem.route}>
-                                                                                        <RightCircleOutlined/>
-                                                                                        <h4>{subSubNavitem.name}</h4>
-                                                                                    </Link>
-                                                                                </li>
-                                                                            ))
-                                                                        }
-                                                                    </ul>
-                                                                </div>
-                                                            ))
-                                                        }
-
-                                                    </div>
-                                                </div>
-                                            </div>: "" }
-                                        </SubMenu>
-                                    ))
-                                }
-                            </Menu>
-
-                        </Col>
-                    </Row>
-
-                </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {navItems.map((navItem) => (
+          <li className={"nav-item cool-link " + (navItem.subMenu.length !== 0 ? 'dropdown' : ' ')}>
+              {navItem.subMenu.length === 0 ? <a className="nav-link" href={navItem.route}>{navItem.name}</a> : <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         {navItem.name}
+        </a>}
+              {navItem.subMenu.length !== 0 ?
+                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div className="container-fluid">
+              <div className="row w-100">
+                  {
+                      navItem.subMenu.map((subNavItem) => (
+                              <div key={subNavItem.id}
+                                   className="col-xs-6 col-md-2 col-lg-2 col-xl-2 pl-md-4">
+                        <h4 class="subNavitem"> {subNavItem.name} </h4>
+                        <ul class="list-group">
+                            {
+                                subNavItem.subMenu.map((subSubNavitem) => (
+                                    <li class="list-group-item cool-list-item">
+                                        <Link
+                                            to={subSubNavitem.route}>
+                                            {/*<RightCircleOutlined/>*/}
+                                            <h6 class="subsubNavitem">{subSubNavitem.name}</h6>
+                                        </Link>
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                      )
+                      )
+                  }
+              </div>
 
             </div>
+        </div>
+                  : ''}
+      </li>
+      ))}
+    </ul>
+  </div>
 
 
-            <style jsx>{
-                `
-    .megaMenu {
-      margin-top:1px;
-      padding: 35px 0 50px 0;
-      width:1677px;
-      margin-bottom:5px;
-      top: 0;
-      left:0px;
-      z-index:99999;
-      color:#fff;
-      background-color:#E0F1FF;
-      box-shadow: 2px 4px 3px 4px #eee;
-    }
+</nav>
 
 
-    .subMenu > li {
-      list-style: none;
-      margin:40px 0 0 0
-    }
-    a {
-      color:#fff;
-      text-decoration: none;
-      font-size:12px
-    }
-    ul {
-      padding: 0;
-      list-style-type: none;
-     }
-  h6 {
-   color:  #fff
-  }
-    
-    `
-            }</style>
-        </>
-    );
+        </>)
 };
+
+function hoverEffect() {
+    $(document).ready(function (){
+/*        $(".list-group-item").click(function () {
+            $(".dropdown-menu").toggle();
+            // $(".navbar .dropdown-menu").removeClass("show");
+        });*/
+        $(".navbar .dropdown-toggle").hover(function () {
+            $(this).parent().toggleClass("show");
+            $(this).parent().find(".dropdown-menu").toggleClass("show");
+        });
+        $(".navbar .dropdown-toggle .list-group-item").click(function () {
+            $(this).parent().toggleClass("show");
+            $(this).parent().find(".dropdown-menu").toggleClass("show");
+        });
+
+    });
+
+    // breakpoint and up
+    $(window).resize(function () {
+        if ($(window).width() >= 980) {
+            // when you hover a toggle show its dropdown menu
+          /*  $(".navbar .dropdown-toggle").hover(function () {
+                $(this).parent().toggleClass("show");
+                $(this).parent().find(".dropdown-menu").toggleClass("show");
+            });
+
+            // hide the menu when the mouse leaves the dropdown
+            $(".navbar .dropdown-menu").mouseleave(function () {
+                $(this).removeClass("show");
+            });*/
+
+            // do something here
+        }
+    });
+}
 
 export default LogoBar;
