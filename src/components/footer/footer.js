@@ -9,7 +9,7 @@ import {
 import globalstyle from '../../style.module.css';
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-
+import './footer.css';
 
 const Footer = () => {
     return (
@@ -62,13 +62,15 @@ const Footer = () => {
                     </div>
                     <div className="row mx-auto">
                         <div className="col-md-12">
-                            <ul className="social-icons">
-                                    <li><a className="facebook" href="#"><i class="fab fa-facebook icon-size"></i></a></li>
-                                    <li><a className="linkedin" href="#"><i class="fab fa-linkedin-in icon-size"></i></a></li>
-                                    <li><a className="twitter" href="#"><i class="fab fa-twitter icon-size"></i></a></li>
-                                    <li><a className="dribbble" href="#"><i class="fab fa-youtube icon-size"></i></a></li>
-                                    <li><a className="linkedin" href="#"><i class="fab fa-instagram icon-size"></i></a></li>
-                                </ul>
+
+                            <div className="social-buttons">
+                                  <a href="#"><i className="fab fa-facebook"></i></a>
+                                  <a href="#"><i className="fab fa-twitter"></i></a>
+                                  <a href="#"><i className="fab fa-instagram"></i></a>
+                                  <a href="#"><i className="fab fa-youtube"></i></a>
+                                  <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                              </div>
+
                         </div>
                     </div>
                     <hr/>
