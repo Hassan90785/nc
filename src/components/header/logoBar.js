@@ -30,7 +30,7 @@ const LogoBar = () => {
                               <div key={subNavItem.id}
                                    className="col-xs-6 col-md-2 col-lg-2 col-xl-2 pl-md-4">
                         <h4 class="subNavitem"> {subNavItem.name} </h4>
-                        <ul class="list-group">
+                        <ul class="list-group nav-ul">
                             {
                                 subNavItem.subMenu.map((subSubNavitem) => (
                                     <li class="list-group-item cool-list-item">
@@ -66,7 +66,10 @@ const LogoBar = () => {
 
 function hoverEffect() {
     $(document).ready(function (){
-
+        $('.nav-ul>li').on('click', function(){
+            // alert('Clicked')
+            window.$('.navbar-collapse').collapse('hide');
+        });
 
     });
 
