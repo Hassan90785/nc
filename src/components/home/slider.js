@@ -17,10 +17,10 @@ class Slider extends Component {
               slides.map((item, index) => (
                   <div className={"carousel-item position-relative " + (index === 0 ? 'active' : ' ')}>
           <img className="d-block w-100" src={item.img} alt={item.id}/>
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption  ">
         <h5>{item.mainHeading}</h5>
         <p>{item.description}</p>
-              <button class="btn btn-primary px-3">{item.btnLabel}</button>
+              <button class="btn btn-primary px-3 carousel-btn">{item.btnLabel}</button>
              </div>
         </div>
               ))}

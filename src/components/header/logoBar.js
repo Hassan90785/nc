@@ -66,10 +66,6 @@ const LogoBar = () => {
 
 function hoverEffect() {
     $(document).ready(function (){
-/*        $(".list-group-item").click(function () {
-            $(".dropdown-menu").toggle();
-            // $(".navbar .dropdown-menu").removeClass("show");
-        });*/
         $(".navbar .dropdown-toggle").hover(function () {
             $(this).parent().toggleClass("show");
             $(this).parent().find(".dropdown-menu").toggleClass("show");
