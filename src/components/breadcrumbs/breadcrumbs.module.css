@@ -9,8 +9,8 @@
 }
 
 .breadcrumbBg {
-    color: aquamarine;
-    background-color: inherit;
+     background: #7F7FD5;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
 }
 
 .customBreadcrumb {
@@ -21,10 +21,12 @@
 
 .customBreadcrumbLink {
     font-size: 16px;
-    /* font-size: 1.6rem; */
     text-decoration: none;
     color: #0a0739;
     font-weight: 500;
+}
+.customBreadcrumbLink a:hover{
+    color: #fff;
 }
 
 .breadcrumbImg {
@@ -32,4 +34,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.ant-breadcrumb a:hover {
+    color: #fff !important;
 }

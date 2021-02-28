@@ -108,7 +108,9 @@ body{
 ::-webkit-scrollbar-thumb {
     background-color: gray !important;
 }
-
+.jumbotron{
+    margin-bottom: 0 !important;
+}
 
 
 

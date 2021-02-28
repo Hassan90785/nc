@@ -1,21 +1,16 @@
 import React from "react";
-import {Breadcrumb} from 'antd';
-import style from './breadcrumbs.module.css';
-import globalstyle from '../../style.module.css';
-import {Link} from 'react-router-dom';
-
+import './bgBefore.css';
 
 const BgBefore = () => {
     return (
-        <div className={style.breadcrumbBgImage}>
-            <img className={style.breadcrumbImg}
-                 src={'https://dummyimage.com/1600x300/030323/fff&text=\''}/>
-            <div className={globalstyle.container}>
-                <p className={globalstyle.pageMainHeading}>
-                    page title
-                </p>
-            </div>
+        <>
+         <div className="jumbotron jumbotron-fluid hero-banner">
+              <div className="container">
+                <h1 className="display-4">Noor Capital</h1>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+              </div>
         </div>
+        </>
     )
 
 };
