@@ -23,6 +23,13 @@ export const navItems = [
 
                     },
                     {
+                        id: '4',
+                        name: 'Management Team',
+                        icon: 'fa-credit-card',
+                        route: '/about/management-team',
+
+                    },
+                    {
                         id: '5',
                         name: 'Precious Metals',
                         icon: 'fa-credit-card',

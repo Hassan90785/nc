@@ -7,8 +7,7 @@ import globalstyle from '../../style.module.css';
 import PageseMetaTags from "../metaTags";
 import BgBefore from "../breadcrumbs/bgBefore";
 import BreadcrumbMenu from "../breadcrumbs/breadcrumbs";
-
-const style = {padding: '50px 0',alignSelf: 'justify' };
+import './management.css'
 
 const ManagementTeam = () => {
   return( <div>
@@ -19,101 +18,265 @@ const ManagementTeam = () => {
         <BgBefore />
         <BreadcrumbMenu />
     
-    <div className={globalstyle.container}>
-
-        <Row>
-            <Col span={24} className="gutter-row">
-
-
-        <div style={style}>
-
-
-
-        <div>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif', color: '#C00000'}}>Slider/Tagline</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>At Noor Capital, We Believe In One spirit, One team, One win.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif', color: '#C00000'}}>Overview</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Noor Capital team consists of the industry's most renowned, experienced, and highly certified professionals that work tirelessly to provide you with the best solution to your investments. Our team believes in continually updating themselves with the latest industry trends that enable them to stay well informed and equipped to deal with complex situations.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>We provide our clients with customized financial solutions under visionary leadership, keeping the process, and communication simple yet effective.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif', color: '#C00000'}}>Our Team</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Meet our management team that plays a vital role in creating long-lasting value for the clients and employees, with their unmatched leadership.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%', fontFamily: '"Arial",sans-serif'}}>Mohammed Ghosheh</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%', fontFamily: '"Arial",sans-serif'}}>Chief Executive Officer&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>With over 24+ years of experience in the finance sector, Mr. Mohammed Ghoshesh has led Noor Capital right from its inception in 2006. A truly passionate and visionary leader, he has worked tirelessly for the company's prosperity while adding value to the clients.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Right from acting as a Financial Controller to becoming the CEO, Mr. Mohammed Ghoshesh has been a real spearhead of Noor Capital, making it the top financial company in the region.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>During his journey with Noor Capital, he has successfully lead several mega projects, including The Dubai Quality Award, Segregation of the Corporate and Retail Business, CRM Implementation, and ISO 9001-2000 Audit.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>With enormous experience in the finance industry, Mr. Mohammed Ghoshesh has formerly served as a Deputy Manager at Commercial Bank of Dubai and Chief Accountant at the Al Rodan Group in Kuwait.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Always passionate about the Financial Sector, Mr. Mohammed Ghosheh holds an MBA in Finance from the University of London, UK, and a Bachelor's Degree in Business Administration, Banking &amp; Finance, from Yarmouk University, Jordan.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%', fontFamily: '"Arial",sans-serif'}}>Abdulla Al Suwaidi</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Executive Director - Strategic Planning and Innovation</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>When dedication, leadership, and vision are blended, it results in any organization's massive success; this defines Mr. Abdulla Al Suwaidi, a truly dedicated leader with tremendous experience of over 20+ years within the Government and Private sectors.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Right from being a member of the Board of Directors of Commercial Bank International PJSC, UAE, to the Executive Director of Strategic Planning and Innovation at Noor Capital, Mr. Abdulla Al Suwaidi wears multiple hats with sheer commitment and clear vision.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>After successfully serving in multiple management positions at Abu Dhabi Company for Onshore Petroleum Operations (ADCO), the Abu Dhabi Municipality, and Dubai’s Roads and Transport Authority (RTA), he has been working devotedly towards the progress of Noor Capital.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>A renowned industry leader in the UAE, and expert strategist, Mr. Abduall Al Suwaidi, brings in his local and international experience to benefit the clients, organization, and employees.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Mr. Abudalla Al Suwaidi, also the founder of Excellence Target - a leading Management Consulting and Training firm, holds a Bachelor of Science Degree in Engineering Management and a Master's Degree in Total Quality Management.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%'}}>&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%'}}>&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%'}}>&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%'}}>Muhammad Al Zoubi&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%'}}>General Manager - Global Markets</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>From starting his career in Jordan in Information Technology at the Securities Depository Centre to establishing a Global Market division at Noor Capital in 2010, Mr. Muhammad Al Zoubi's journey has been truly inspirational.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>With over 17+ years of immense experience in the Finance Industry, Mr. Muhammad Al Zoubi has shown that dedication, passion, and sheer hard work will help you achieve massive success for yourself and your organization.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Formerly heading the VIP Department at Mac Saraf and working at the Local Equities department at Emaar Financial Services, he plays a significant role in the overall development of Noor Capital.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Mr. Al Zoubi holds a Telecommunications Engineering Degree from the Jordan University of Science and Technology.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Sher Ali</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Head of Investment Banking</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>A focused, optimistic, and diligent leader with more than 17+ years of experience in the Finance Industry is what makes Mr. Sher Ali a precious and respected leader who has been working towards the enhancement of Noor Capital while providing clients with the best experience.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>From serving as a senior manager for Doha Bank, Qatar, to working as a Director in the Structured Finance Division of QINVEST, Qatar, Mr. Sher Ali has come a long way, continuously adding value to Noor Capital with his knowledge and experience.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>With an impeccable track record in Investment Banking, Financial Institutions, and Structured Finance, he is also a veteran in both Conventional and Islamic Finance Structures.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Mr. Sher Ali has an MBA in Banking and Finance from Birmingham Business School.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '107%', fontSize: '15px', fontFamily: '"Calibri",sans-serif'}}><strong><span style={{fontSize: '19px', lineHeight: '107%', fontFamily: '"Arial",sans-serif'}}>Adel M. El Hassan&nbsp;</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><strong><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>Manager, Legal Department &amp; Reporter for the Board of Directors</span></strong></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>With more than 25+ years of experience practicing law in the UAE as a Magistrate, an Advocate, and serving as a legal advisor abroad, Mr. Adel M. El Hassan is a spearhead for all legal formalities to Noor Capital.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>A veteran in Mergers and Acquisitions (M&amp;As), Mr. Adel M. El Hassan has immensely contributed to Noor Capital with his expertise in preparing Legal Memorandums, Contracts, and Agreements, including numerous Business Setups, Employment Contracts, and Sales and Purchase Contracts.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>A member of the Sudanese Bar Association and holder of a Bachelor’s Degree in Law, Mr. Adel M. El Hassan has extensive knowledge related to drafting Resolutions and Decisions of the General Assembly and the Board of Directors.</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <p style={{marginTop: '0in', marginRight: '0in', marginBottom: '8.0pt', marginLeft: '0in', lineHeight: '150%', fontSize: '15px', fontFamily: '"Calibri",sans-serif', textAlign: 'justify'}}><span style={{fontSize: '19px', lineHeight: '150%', fontFamily: '"Arial",sans-serif'}}>&nbsp;</span></p>
-        <div id="_com_1" language="JavaScript"><br /></div>
-      </div>
+        <div className="container">
+                <section id="team" className="pb-5">
+    <div className="container">
+        <blockquote className="blockquote font-italic font-weight-bold text-center">
+          <p className="mb-0">At Noor Capital, We Believe In One spirit, One team, One win.</p>
+          <footer className="blockquote-footer">Noor Capital</footer>
+        </blockquote>
+        <h6 className="section-tag px-5 h1">Overview</h6>
+        <p className="overview px-5">Noor Capital team consists of the industry's most renowned, experienced, and highly certified management team that plays a vital role in creating long-lasting value for the clients and employees with their unmatched leadership.</p>
+        <div className="row">
+            <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="image-flip " onTouchStart="this.classList.toggle('hover');">
+                    <div className="mainflip">
+                        <div className="frontside">
+                            <div className="card">
+                                <div className="card-body text-center">
+                                    <p><img className=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"/></p>
+                                    <h4 className="card-title">Mohammed Ghosheh</h4>
+                                    <h5 className="card-title">Chief Executive Officer </h5>
+                                    <a href="#" className="btn btn-primary btn-sm"><i className="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="backside">
+                            <div className="card">
+                                <div className="card-body text-center mt-4">
+                                    <h4 className="card-title">Mohammed Ghosheh</h4>
+                                    <p className="card-text"><strong>Mohammed Ghosheh</strong> is the Chief Executive Officer of Noor Capital, with over 30 years of professional experience in Banking and Investment. He has led some of the significant projects, including The Dubai Quality Award, Segregation of the Corporate and Retail Business, CRM Implementation, and the ISO 9001-2000. Formerly he worked as a Deputy Manager - Business Group at Commercial Bank of Dubai. Mohammed Ghosheh holds an MBA in Finance from Lincoln University, UK, and a Bachelor’s Degree in Business Administration, Banking & Finance from Yarmouk University, Jordan.</p>
+                                    <ul className="list-inline">
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+            <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="image-flip " onTouchStart="this.classList.toggle('hover');">
+                    <div className="mainflip">
+                        <div className="frontside">
+                            <div className="card">
+                                <div className="card-body text-center">
+                                    <p><img className=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"/></p>
+                                    <h4 className="card-title">Abdulla Al Suwaidi</h4>
+                                    <h5 className="card-title">Executive Director - Strategic Planning and Innovation </h5>
+                                    <a href="#" className="btn btn-primary btn-sm"><i className="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="backside">
+                            <div className="card">
+                                <div className="card-body text-center mt-4">
+                                    <h4 className="card-title">Abdulla Al Suwaidi</h4>
+                                    <p className="card-text"><strong>Abdulla Al Suwaidi</strong> is an Executive Director at Noor Capital, with over 20 years of professional experience in the Government and Private sectors. Formerly he held several leadership positions in Abu Dhabi Company for Onshore Petroleum Operations (ADCO), the Abu Dhabi Municipality, and the Roads and Transport Authority (RTA) Dubai. Abdulla Al Suwaidi holds a Bachelor of Science Degree in Engineering Management and a Master's Degree in Total Quality Management.</p>
+                                    <ul className="list-inline">
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="image-flip " onTouchStart="this.classList.toggle('hover');">
+                    <div className="mainflip">
+                        <div className="frontside">
+                            <div className="card">
+                                <div className="card-body text-center">
+                                    <p><img className=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"/></p>
+                                    <h4 className="card-title">Muhammad Al Zoubi </h4>
+                                    <h5 className="card-title">General Manager - Global Markets</h5>
+                                    <a href="#" className="btn btn-primary btn-sm"><i className="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="backside">
+                            <div className="card">
+                                <div className="card-body text-center mt-4">
+                                    <h4 className="card-title">Muhammad Al Zoubi </h4>
+                                    <p className="card-text"><strong>Muhammad Al Zoubi</strong> is General Manager at Noor Capital with over 17 years of professional experience in finance. Formerly he was the Head of the VIP Department at Mac Sharaf and worked at Emaar Financial Services in Dubai. Muhammad Al Zoubi holds a Telecommunications Engineering Degree from the Jordan University of Science and Technology.</p>
+                                    <ul className="list-inline">
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+            <div className="row">
+
+            <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="image-flip " onTouchStart="this.classList.toggle('hover');">
+                    <div className="mainflip">
+                        <div className="frontside">
+                            <div className="card">
+                                <div className="card-body text-center">
+                                    <p><img className=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"/></p>
+                                    <h4 className="card-title">Sher Ali </h4>
+                                    <h5 className="card-title">Head of Investment Banking</h5>
+                                    <a href="#" className="btn btn-primary btn-sm"><i className="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="backside">
+                            <div className="card">
+                                <div className="card-body text-center mt-4">
+                                    <h4 className="card-title">Sher Ali</h4>
+                                    <p className="card-text"><strong>Sher Ali</strong> is the Head of Investment Banking at Noor Capital with over 17 years of tremendous experience in Investment Banking, Financial Institutions, and Structured Finance within the GCC. Formerly he worked as a Head of Debt Capital Markets & Structured Finance and Director in the Structured Finance Division of QINVEST, Qatar. Sher Ali has an MBA in Banking and Finance from Birmingham Business School.</p>
+                                    <ul className="list-inline">
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="image-flip " onTouchStart="this.classList.toggle('hover');">
+                    <div className="mainflip">
+                        <div className="frontside">
+                            <div className="card">
+                                <div className="card-body text-center">
+                                    <p><img className=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"/></p>
+                                    <h4 className="card-title">Adel M. El Hassan</h4>
+                                    <h5 className="card-title">Manager, Legal Department & Reporter for the Board of Directors</h5>
+                                    <a href="#" className="btn btn-primary btn-sm"><i className="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="backside">
+                            <div className="card">
+                                <div className="card-body text-center mt-4">
+                                    <h4 className="card-title">Adel M. El Hassan</h4>
+                                    <p className="card-text"><strong>Adel M. El Hassan</strong> is Manager at Legal Department & Reporter for the Board of Directors at Noor Capital. He has over 25 years of experience in the Law Industry of the UAE and as a Magistrate, and Advocate, and Legal Advisor globally. Adel M. El Hassan holds a Bachelor’s Degree in Law.</p>
+                                    <ul className="list-inline">
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a className="social-icon text-xs-center" target="_blank" href="#">
+                                                <i className="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
-
-
-            </Col>
-        </Row>
-
     </div>
+</section>
+            </div>
 
   </div>
   )
