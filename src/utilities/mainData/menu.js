@@ -10,80 +10,80 @@ export const navItems = [
         route: '/about',
         subMenu: [
             {
-                id: '3',
-                name: 'Instruments',
+                id: '110',
+                name: '',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '4',
-                        name: 'Open Demo',
+                        id: '111',
+                        name: 'About Us',
                         icon: 'fa-credit-card',
-                        route: '/account/fxDemo',
+                        route: '/about/about-us',
 
                     },
                     {
-                        id: '4',
+                        id: '112',
+                        name: 'Chairman’s Message',
+                        icon: 'fa-credit-card',
+                        route: '/about/chairman-message',
+
+                    },
+                    {
+                        id: '113',
+                        name: 'Board Members',
+                        icon: 'fa-credit-card',
+                        route: '/about/board-members',
+                    },
+                    {
+                        id: '114',
                         name: 'Management Team',
                         icon: 'fa-credit-card',
                         route: '/about/management-team',
-
                     },
                     {
-                        id: '5',
-                        name: 'Precious Metals',
+                        id: '115',
+                        name: 'License and Regulations',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '6',
-                        name: 'Soft Commodities',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '7',
-                        name: 'Energies',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '8',
-                        name: 'Indices',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '9',
-                        name: 'Shares CFDs',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/about/license-regulations',
                     }
                 ]
             },
             {
-                id: '10',
-                name: 'Accounts',
+                id: '120',
+                name: '',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '11',
-                        name: 'Account Funding',
+                        id: '121',
+                        name: 'Why Noor Capital',
                         icon: 'fa-credit-card',
-                        route: '/about/',
+                        route: '/about/why-noor-capital',
                     },
                     {
-                        id: '12',
-                        name: 'Account Types',
+                        id: '122',
+                        name: 'Terms and Conditions',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/terms-conditions',
                     },
                     {
-                        id: '13',
-                        name: 'Trading Conditions',
+                        id: '123',
+                        name: 'Anti Money Laundering Policy',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/about/anti-money-laundering-policy',
+                    },
+                    {
+                        id: '124',
+                        name: 'Careers',
+                        icon: 'fa-credit-card',
+                        route: '/about/careers',
+                    },
+                    {
+                        id: '125',
+                        name: 'Contact Us',
+                        icon: 'fa-credit-card',
+                        route: '/about/contact-us',
                     }
                 ]
             }
@@ -99,56 +99,40 @@ export const navItems = [
         icon: 'fa-wrench',
         route: '/about',
         subMenu: [
-
             {
-                id: '3',
-                name: 'Instruments',
+                id: '210',
+                name: '',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '4',
-                        name: 'Open Demo',
+                        id: '221',
+                        name: 'Global Financial Advisory',
                         icon: 'fa-credit-card',
-                        route: '/account/fxDemo',
-
+                        route: '/services/global-financial-advisory',
                     },
                     {
-                        id: '5',
-                        name: 'Precious Metals',
+                        id: '211',
+                        name: 'Asset Management',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/services/asset-management',
                     },
                     {
-                        id: '6',
-                        name: 'Soft Commodities',
+                        id: '212',
+                        name: 'Investment',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/services/investment',
                     },
                     {
-                        id: '7',
-                        name: 'Energies',
+                        id: '213',
+                        name: 'Funds Administration',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '8',
-                        name: 'Indices',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '9',
-                        name: 'Shares CFDs',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/services/funds-administration',
                     }
                 ]
             },
-
         ]
     },
-
     /**********************************************************************/
     /** Trading */
     {
@@ -158,145 +142,173 @@ export const navItems = [
         route: '/about',
         subMenu: [
             {
-                id: '3',
+                id: '310',
                 name: 'Instruments',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '4',
-                        name: 'Open Demo',
+                        id: '311',
+                        name: 'Forex',
                         icon: 'fa-credit-card',
-                        route: '/account/fxDemo',
+                        route: '/trading/instruments/forex',
 
                     },
                     {
-                        id: '5',
+                        id: '312',
                         name: 'Precious Metals',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading/instruments/precious-metals',
                     },
                     {
-                        id: '6',
-                        name: 'Soft Commodities',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '7',
+                        id: '313',
                         name: 'Energies',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading/instruments/energies',
                     },
                     {
-                        id: '8',
+                        id: '314',
                         name: 'Indices',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading/instruments/indices',
                     },
                     {
-                        id: '9',
+                        id: '315',
                         name: 'Shares CFDs',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading/instruments/shares-cfds',
                     }
                 ]
             },
             {
-                id: '10',
-                name: 'Accounts',
+                id: '330',
+                name: 'Metatrader 4 Platform',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '/trading-platforms/metatrader4',
                 subMenu: [
                     {
-                        id: '11',
-                        name: 'Account Funding',
-                        icon: 'fa-credit-card',
-                        route: '/about/',
-                    },
-                    {
-                        id: '12',
-                        name: 'Account Types',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '13',
-                        name: 'Trading Conditions',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    }
-                ]
-            },
-            {
-                id: '14',
-                name: 'Platforms',
-                icon: 'fa-credit-card',
-                route: '/instruments',
-                subMenu: [
-                    {
-                        id: '15',
-                        name: 'Metatrader Desktop',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '16',
-                        name: 'Noor Webtrader',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '17',
-                        name: 'Mobile Apps',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    }
-                ]
-            },
-            {
-                id: '18',
-                name: 'Noor Trader',
-                icon: 'fa-credit-card',
-                route: '/instruments',
-                subMenu: [
-                    {
-                        id: '19',
-                        name: 'Demo Account',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '20',
-                        name: 'Live Account',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    }
-                ]
-            },
-            {
-                id: '21',
-                name: 'Global Stocks',
-                icon: 'fa-credit-card',
-                route: '/instruments',
-                subMenu: [
-                    {
-                        id: '22',
-                        name: 'Live Login',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '23',
-                        name: 'Open Demo Account',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '24',
+                        id: '331',
                         name: 'Open Live Account',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-platforms/mt4-open-forex-live',
+
+                    },
+                    {
+                        id: '332',
+                        name: 'Open Demo Account',
+                        icon: 'fa-credit-card',
+                        route: '/trading-platforms/mt4-open-forex-demo',
+                    },
+                    {
+                        id: '333',
+                        name: 'Metatrader 4 Mobile',
+                        icon: 'fa-credit-card',
+                        route: '/trading-platforms/metatrader4/mt4-mobile',
+                    },
+                    {
+                        id: '334',
+                        name: 'Metatrader 4 Desktop',
+                        icon: 'fa-credit-card',
+                        route: '/trading-platforms/metatrader4/mt4-desktop',
+                    },
+                    {
+                        id: '335',
+                        name: 'Metatrader 4 Mac',
+                        icon: 'fa-credit-card',
+                        route: '/trading-platforms/metatrader4/mt4-mac',
+                    },
+                    {
+                        id: '336',
+                        name: 'Metatrader 4 Webtrader',
+                        icon: 'fa-credit-card',
+                        route: '/trading-platforms/metatrader4/mt4-web-trader',
+                    }
+                ]
+            },
+            {
+                id: '340',
+                name: 'NoorTrader Platform',
+                icon: 'fa-credit-card',
+                route: '/physical-trading-platforms',
+                subMenu: [
+                    {
+                        id: '341',
+                        name: 'Open Live Account',
+                        icon: 'fa-credit-card',
+                        route: '/physical-trading-platforms/open-noor-trader-live',
+
+                    },
+                    {
+                        id: '342',
+                        name: 'Open Demo Account',
+                        icon: 'fa-credit-card',
+                        route: '/physical-trading-platforms/open-noor-trader-demo',
+                    },
+                    {
+                        id: '343',
+                        name: 'NoorTrader Mobile',
+                        icon: 'fa-credit-card',
+                        route: '/physical-trading-platforms/noor-trader-mobile',
+                    },
+                    {
+                        id: '344',
+                        name: 'NoorTrader Webtrader',
+                        icon: 'fa-credit-card',
+                        route: '/physical-trading-platforms/noor-trader-web',
+                    }
+                ]
+            },
+            {
+                id: '350',
+                name: 'Global Stocks (GTN) Platform',
+                icon: 'fa-credit-card',
+                route: '/stocks-trading-platforms',
+                subMenu: [
+                    {
+                        id: '351',
+                        name: 'Open Live Account',
+                        icon: 'fa-credit-card',
+                        route: '/stocks-trading-platforms/open-gtn-live',
+
+                    },
+                    {
+                        id: '352',
+                        name: 'GTN 4 Mobile',
+                        icon: 'fa-credit-card',
+                        route: '/stocks-trading-platforms/gtn-mobile',
+                    },
+                    {
+                        id: '353',
+                        name: 'GTN Webtrader',
+                        icon: 'fa-credit-card',
+                        route: '/stocks-trading-platforms/gtn-web',
+                    }
+                ]
+            },
+            {
+                id: '320',
+                name: 'Accounts',
+                icon: 'fa-credit-card',
+                route: '#',
+                subMenu: [
+                    {
+                        id: '321',
+                        name: 'Account Funding',
+                        icon: 'fa-credit-card',
+                        route: '/trading/accounts/account-funding',
+
+                    },
+                    {
+                        id: '322',
+                        name: 'Account Opening Forms',
+                        icon: 'fa-credit-card',
+                        route: '/trading/accounts/account-forms',
+                    },
+                    {
+                        id: '323',
+                        name: 'Trading Conditions',
+                        icon: 'fa-credit-card',
+                        route: '/trading/accounts/trading-conditions',
                     }
                 ]
             }
@@ -309,76 +321,45 @@ export const navItems = [
         id: '401',
         name: 'Partnership',
         icon: 'fa-wrench',
-        route: '/about',
+        route: '#',
         subMenu: [
             {
-                id: '3',
-                name: 'Instruments',
+                id: '410',
+                name: 'Institutional',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '4',
-                        name: 'Open Demo',
+                        id: '411',
+                        name: 'White Label Solutions',
                         icon: 'fa-credit-card',
-                        route: '/account/fxDemo',
-
+                        route: '/partnership/white-label-solutions',
                     },
                     {
-                        id: '5',
-                        name: 'Precious Metals',
+                        id: '412',
+                        name: 'Institutional Clients',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/partnership/institutional-clients',
                     },
                     {
-                        id: '6',
-                        name: 'Soft Commodities',
+                        id: '413',
+                        name: 'Asset Managers (MAM/PAMM)',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '7',
-                        name: 'Energies',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '8',
-                        name: 'Indices',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '9',
-                        name: 'Shares CFDs',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/partnership/asset-managers',
                     }
                 ]
             },
             {
-                id: '10',
-                name: 'Accounts',
+                id: '420',
+                name: 'IB Program',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '11',
-                        name: 'Account Funding',
+                        id: '431',
+                        name: 'IB & Affiliate',
                         icon: 'fa-credit-card',
-                        route: '/about/',
-                    },
-                    {
-                        id: '12',
-                        name: 'Account Types',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '13',
-                        name: 'Trading Conditions',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/partnership/ib-program',
                     }
                 ]
             }
@@ -391,51 +372,33 @@ export const navItems = [
         id: '501',
         name: 'Media Center',
         icon: 'fa-wrench',
-        route: '/about',
+        route: '#',
         subMenu: [
 
             {
-                id: '3',
-                name: 'Instruments',
+                id: '510',
+                name: '',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '4',
-                        name: 'Open Demo',
+                        id: '511',
+                        name: 'Press Releases',
                         icon: 'fa-credit-card',
-                        route: '/account/fxDemo',
+                        route: '#',
 
                     },
                     {
-                        id: '5',
-                        name: 'Precious Metals',
+                        id: '512',
+                        name: 'Awards',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '#',
                     },
                     {
-                        id: '6',
-                        name: 'Soft Commodities',
+                        id: '513',
+                        name: 'Activites',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '7',
-                        name: 'Energies',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '8',
-                        name: 'Indices',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '9',
-                        name: 'Shares CFDs',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '#',
                     }
                 ]
             },
@@ -449,90 +412,103 @@ export const navItems = [
         id: '601',
         name: 'Noor Acadmey',
         icon: 'fa-wrench',
-        route: '/about',
+        route: '/education/noor-academy',
         subMenu: []
     },
 
     /** Trading Tools  */
     /**********************************************************************/
-
     {
         id: '701',
         name: 'Trading Tools',
         icon: 'fa-wrench',
-        route: '/about',
+        route: '#',
         subMenu: [
             {
-                id: '26',
-                name: 'Instruments',
+                id: '710',
+                name: 'Noor Trends',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '27',
-                        name: 'Forex or Currencies',
+                        id: '711',
+                        name: 'Online Webinar',
                         icon: 'fa-credit-card',
-                        route: '/about',
+                        route: '/trading-tools/noor-trends-online-webinar',
                     },
                     {
-                        id: '28',
-                        name: 'Precious Metals',
+                        id: '712',
+                        name: 'Market Update',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/noor-trends-market-update',
                     },
                     {
-                        id: '29',
-                        name: 'Soft Commodities',
+                        id: '713',
+                        name: 'Technical Analysis',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/noor-trends-technical-analysis',
                     },
                     {
-                        id: '30',
-                        name: 'Energies',
+                        id: '714',
+                        name: 'Economic Report',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/noor-trends-economic-reports',
                     },
                     {
-                        id: '31',
-                        name: 'Indices',
+                        id: '715',
+                        name: 'Daily Broadcasting',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
-                    },
-                    {
-                        id: '32',
-                        name: 'Shares CFDs',
-                        icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/noor-trends-daily-broadcasting',
                     }
                 ]
             },
-            {
-                id: '33',
-                name: 'Accounts',
+            {    
+                id: '720',
+                name: 'Tools',
                 icon: 'fa-credit-card',
-                route: '/instruments',
+                route: '#',
                 subMenu: [
                     {
-                        id: '34',
-                        name: 'Account Funding',
+                        id: '721',
+                        name: 'Economic Calendar',
                         icon: 'fa-credit-card',
-                        route: '/about/',
+                        route: '/trading-tools/economic-calendar',
                     },
                     {
-                        id: '35',
-                        name: 'Account Types',
+                        id: '722',
+                        name: 'Trading Signals',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/trading-signals',
                     },
                     {
-                        id: '36',
-                        name: 'Trading Conditions',
+                        id: '723',
+                        name: 'Traders Glossary',
                         icon: 'fa-credit-card',
-                        route: '/account/payment',
+                        route: '/trading-tools/traders-glossary',
+                    },
+                    {
+                        id: '724',
+                        name: 'Video Tutorials',
+                        icon: 'fa-credit-card',
+                        route: '/trading-tools/video-tutorials',
+                    },
+                    {
+                        id: '725',
+                        name: 'Risk Disclosure',
+                        icon: 'fa-credit-card',
+                        route: '/trading-tools/risk-disclosure',
                     }
                 ]
             }
         ]
+    },
+
+    {
+        id: '801',
+        name: 'Blog',
+        icon: 'fa-wrench',
+        route: '#',
+        subMenu: []
     }
 
     /**********************************************************************/

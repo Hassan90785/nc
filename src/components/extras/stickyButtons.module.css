@@ -1,6 +1,3 @@
-
-
-
 .stickyButtons {
   position: fixed;
   top: 50%;
@@ -9,8 +6,7 @@
   transform: translateY(-50%);
   margin: 0px;
   padding: 0px;
-  right: 0px;
-  
+  right: 0px; 
 }
 
 .stickyButtons a {

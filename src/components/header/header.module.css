@@ -1,8 +1,10 @@
 .upHeader {
   background-color: #303236;
-  padding: 10px 0;
+  /* padding: 5px 0; */
+  padding-bottom: 1px;
+padding-top: 4px;
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
 }
 .logoBar {
   background-color: rgba(0, 0, 0, 0.3);

@@ -106,7 +106,7 @@
     .carousel-caption {
         position: absolute;
         top: 2rem;
-        left: 3rem;
+        left: 10rem;
         text-align: left;
     }
     .carousel-caption h5 {
@@ -120,5 +120,10 @@
     .carousel-btn{
         transform: scale(1);
         transform-origin: left;
+    }
+}
+@media (min-width: 2560px) {
+    .carousel-caption {
+        left: 43rem;
     }
 }

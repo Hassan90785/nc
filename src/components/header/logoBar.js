@@ -8,7 +8,7 @@ const LogoBar = () => {
     hoverEffect();
     return (
         <>
-<nav class="navbar navbar-expand-lg pl-md-5 navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light left-position">
   <a class="navbar-brand pl-3" href="#"> <Link to="/"> <img src={logo} width="150px"/> </Link></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

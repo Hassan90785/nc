@@ -7,6 +7,7 @@ import {
     UserOutlined,
     UserSwitchOutlined,
     CreditCardOutlined,
+    FastBackwardOutlined
 } from "@ant-design/icons";
 
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
@@ -18,39 +19,32 @@ const UpHeader = () => {
                 <Row gutter={[2, 4]} justify="center" align="middle">
                     <Col md={7} xs={24} className={headerStyle.upHeaderSpan}>
             <span>
-              <UserOutlined
-                  style={{
-                      fontSize: "16px",
-                      color: "#08c",
-                      verticalAlign: "1px",
-                  }}
-              />{" "}
-                <b>MyNoor</b>
+            <a href="https://mynoor.noorcap.ae/en/traders/login" target="_blank"><i class="fa fa-user-alt" style={{ fontSize: "13px",color: "#1a86da", paddingRight:"5px",
+                  }} ></i>
+            <span style={{ fontSize: "13px",color: "#1a86da"}}>MyNoor</span>
+            </a> 
+                
             </span>
                         <span>
-              <UserSwitchOutlined
-                  style={{
-                      fontSize: "16px",
-                      color: "#08c",
-                      verticalAlign: "1px",
-                  }}
-              />{" "}
-                            <b>Agent Area</b>
+                        <a href="https://agent.noorcap.ae/en/agent/login" target="_blank"><i class="fa fa-user-cog" style={{ fontSize: "13px",color: "#1a86da", paddingRight:"5px",
+                  }} ></i>
+            <span style={{ fontSize: "13px",color: "#1a86da"}}>Agent Area</span>
+            </a> 
+                           
             </span>
+          
                         <span>
-              <CreditCardOutlined
-                  style={{
-                      fontSize: "16px",
-                      color: "#08c",
-                      verticalAlign: "1px",
-                  }}
-              />{" "}
-                            <b>Fund Account</b>
+                        <Link to="/trading/accounts/account-funding"><i class="fa fa-credit-card" style={{ fontSize: "13px",color: "#1a86da", paddingRight:"5px",
+                  }} ></i>
+            <span style={{ fontSize: "13px",color: "#1a86da"}}>Fund Account</span>
+            </Link> 
+                           
             </span>
+                            
                     </Col>
                     <Col md={5} xs={24} className={headerStyle.upHeaderSpan}>
-                        <span>NoorTrader Demo </span>
-                        <span>GTN Account</span>
+                    <Link to="/physical-trading-platforms/open-noor-trader-demo"> <span style={{ fontWeight: "bold",color: "#ffffff", paddingRight:"13px"}}>NoorTrader Demo </span></Link>
+                    <Link to="/stocks-trading-platforms/open-gtn-live"><span style={{ fontWeight: "bold",color: "#ffffff"}}>GTN Account</span></Link>
                     </Col>
 
                     <Col md={4} xs={24}></Col>
