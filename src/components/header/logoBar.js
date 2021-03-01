@@ -24,7 +24,7 @@ const LogoBar = () => {
               {navItem.subMenu.length !== 0 ?
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <div className="container-fluid">
-              <div className="row w-100">
+              <div className="row w-100 ml-5 md-lg-0">
                   {
                       navItem.subMenu.map((subNavItem) => (
                               <div key={subNavItem.id}

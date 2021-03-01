@@ -51,6 +51,8 @@
         visibility: visible;
         opacity: 1;
         transition: visibility 0s, opacity 0.3s linear;
+        width: 85%;
+        left: 13rem;
     }
 
     .navbar .dropdown-menu {
@@ -59,7 +61,9 @@
     }
 
 }
-
+.navbar-collapse {
+    text-align: center;
+}
 
 .cool-link::after {
     content: '';
