@@ -8,7 +8,7 @@ const LogoBar = () => {
     hoverEffect();
     return (
         <>
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg pl-md-5 navbar-light">
   <a class="navbar-brand pl-3" href="#"> <Link to="/"> <img src={logo} width="150px"/> </Link></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@ const LogoBar = () => {
               {navItem.subMenu.length !== 0 ?
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <div className="container-fluid">
-              <div className="row w-100 ml-5 md-lg-0">
+              <div className="row w-100 ml-5 ml-lg-0">
                   {
                       navItem.subMenu.map((subNavItem) => (
                               <div key={subNavItem.id}
@@ -69,7 +69,9 @@ function hoverEffect() {
         $('.nav-ul>li').on('click', function(){
             window.$('.navbar-collapse').collapse('hide');
         });
-
+        $(".nav-ul>li").click(function () {
+            $(".dropdown-menu").removeClass("show");
+        });
     });
 
     // breakpoint and up
