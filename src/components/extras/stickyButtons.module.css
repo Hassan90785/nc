@@ -1,0 +1,71 @@
+
+
+
+.stickyButtons {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0px;
+  padding: 0px;
+  right: 0px;
+  
+}
+
+.stickyButtons a {
+  display: block;
+  text-align: center;
+  padding: 13px;
+  transition: all 0.3s ease;
+  color: #211616;
+  font-size: 14px;
+  margin-bottom: 2px;
+  
+}
+
+.stickyButtons a:hover {
+  background-color: #fff;
+}
+
+.support {
+  background: #1176BD;
+  color: white;
+}
+
+.call {
+  background: #1176BD;
+  color: white;
+}
+
+.blog {
+  background: #1176BD;
+  color: white;
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

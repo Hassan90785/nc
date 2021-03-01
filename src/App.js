@@ -96,20 +96,28 @@ import CookiesPolicy from "./components/pages/website_CookiesPolicy.js";
 import FraudWarning from "./components/pages/website_FraudWarning.js";
 import SiteMap from "./components/pages/website_SiteMap.js";
 import Page404 from "./components/pages/website_404.js";
+import SocialShare from "./components/extras/socialShare.js";
+import StickyButtons from "./components/extras/stickyButtons.js";
 
 
 function App() {
     return (
         <div>
+          
       <Router>
+
+
+      
     
     {/* <Loading /> */}
           <Header/>
-
+          
 
         <Route path="/account/fxDemo" component={OpenFxDemoAccount_page}/>
 
         <Route exact path="/" component={Home}/>
+
+        
 
           {/* About */}
           <Route path="/about/about-us" component={AboutUs}/>
@@ -198,7 +206,8 @@ function App() {
         <Route path="/support/call-back-request" component={CallBackRequest}/>
 
 
-
+        <SocialShare />
+        <StickyButtons />
         <Footer/>
       </Router>
     </div>

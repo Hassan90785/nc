@@ -11,7 +11,13 @@ class Slider extends Component {
         return (
             <>
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+               {
+                   slides.map((item, index) => (
+            <li data-target="#carouselExampleIndicators" data-slide-to={item.id} className={(index === 0 ? 'active' : ' ')}></li>
+                   ))}
 
+          </ol>
       <div className="carousel-inner">
           {
               slides.map((item, index) => (

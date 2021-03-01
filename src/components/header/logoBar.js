@@ -67,7 +67,6 @@ const LogoBar = () => {
 function hoverEffect() {
     $(document).ready(function (){
         $('.nav-ul>li').on('click', function(){
-            // alert('Clicked')
             window.$('.navbar-collapse').collapse('hide');
         });
 
